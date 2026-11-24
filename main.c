@@ -26,6 +26,7 @@ int main(){
   int count;	// 현재 등록된 카드 수
   int menu;	// 메뉴번호
   count = loadCards(cards);	// 시작 전에 파일로부터 객실 리스트를 모두 읽어온다.
+  printf("Edited by ___ \n");
   while(1)
   {
     // 메뉴 출력
